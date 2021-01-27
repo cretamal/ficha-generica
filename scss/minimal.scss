@@ -165,6 +165,7 @@ body{
     right:10%;
     background:rgba(226,226,226,0.75);
     border-radius:60px;
+    display:none !important;
     @include respond-to($iphone_xs) {
       bottom:-70px;
     }

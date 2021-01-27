@@ -134,7 +134,8 @@ body {
   bottom: 120px;
   right: 10%;
   background: rgba(226, 226, 226, 0.75);
-  border-radius: 60px; }
+  border-radius: 60px;
+  display: none !important; }
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     .ficha-2021-samsung .scrolling {
       bottom: -70px; } }
