@@ -71,7 +71,7 @@ body {
     color: #000000 !important; }
 
 .ficha-2021-samsung .body-copy {
-  margin-top: 70px; }
+  margin: 70px 0 131px 0; }
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     .ficha-2021-samsung .body-copy {
       margin-top: 40px; } }
@@ -98,6 +98,12 @@ body {
   display: inherit; }
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     .ficha-2021-samsung .W {
+      display: none; } }
+
+.ficha-2021-samsung .W-2 {
+  display: block; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .ficha-2021-samsung .W-2 {
       display: none; } }
 
 .ficha-2021-samsung .M {
@@ -194,104 +200,113 @@ body {
       font-size: 3em;
       font-family: 'SamsungSharp Bold'; }
 
-.ficha-2021-samsung .banner-1-b article {
-  padding-top: 99px; }
-  .ficha-2021-samsung .banner-1-b article .wrapper {
-    width: 100%;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: 60% 40%;
-    justify-content: center; }
-    @media only screen and (min-width: 200px) and (max-width: 767px) {
-      .ficha-2021-samsung .banner-1-b article .wrapper {
-        grid-template-columns: 95%;
-        max-width: 400px;
-        column-gap: 40px; } }
-  .ficha-2021-samsung .banner-1-b article .left .card-producto, .ficha-2021-samsung .banner-1-b article .right .card-producto {
-    padding: 0; }
-    @media only screen and (min-width: 200px) and (max-width: 767px) {
-      .ficha-2021-samsung .banner-1-b article .left .card-producto, .ficha-2021-samsung .banner-1-b article .right .card-producto {
-        padding: 30px 0 30px 0; } }
-  .ficha-2021-samsung .banner-1-b article .left h3, .ficha-2021-samsung .banner-1-b article .right h3 {
+.ficha-2021-samsung .banner-1-b article .wrapper {
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-content: center; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .ficha-2021-samsung .banner-1-b article .wrapper {
+      grid-template-columns: 95%;
+      max-width: 400px;
+      column-gap: 40px; } }
+
+.ficha-2021-samsung .banner-1-b article .left .card-producto, .ficha-2021-samsung .banner-1-b article .right .card-producto {
+  padding: 0; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .ficha-2021-samsung .banner-1-b article .left .card-producto, .ficha-2021-samsung .banner-1-b article .right .card-producto {
+      padding: 30px 0 30px 0; } }
+
+.ficha-2021-samsung .banner-1-b article .left h3, .ficha-2021-samsung .banner-1-b article .right h3 {
+  font-family: 'SamsungSharp Medium';
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin: 15px 0 15px 0; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .ficha-2021-samsung .banner-1-b article .left h3, .ficha-2021-samsung .banner-1-b article .right h3 {
+      font-size: 22px; } }
+  .ficha-2021-samsung .banner-1-b article .left h3 span, .ficha-2021-samsung .banner-1-b article .right h3 span {
+    font-family: 'SamsungSharp Bold'; }
+
+.ficha-2021-samsung .banner-1-b article .left h2, .ficha-2021-samsung .banner-1-b article .right h2 {
+  font-family: 'SamsungSharp Medium';
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  margin-top: 39px; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .ficha-2021-samsung .banner-1-b article .left h2, .ficha-2021-samsung .banner-1-b article .right h2 {
+      font-size: 22px; } }
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .ficha-2021-samsung .banner-1-b article .left h5, .ficha-2021-samsung .banner-1-b article .left h3, .ficha-2021-samsung .banner-1-b article .right h5, .ficha-2021-samsung .banner-1-b article .right h3 {
+    text-align: center; } }
+
+.ficha-2021-samsung .banner-1-b article .left .img, .ficha-2021-samsung .banner-1-b article .right .img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 0 auto; }
+
+.ficha-2021-samsung .banner-1-b article .right {
+  margin-top: 80px; }
+  .ficha-2021-samsung .banner-1-b article .right h5 {
+    font-family: 'SamsungSharp Bold';
+    font-size: 30px !important;
+    color: #8c8c8c;
+    margin: 0; }
+  .ficha-2021-samsung .banner-1-b article .right h2 {
+    font-family: 'SamsungSharp Bold' !important; }
+
+.ficha-2021-samsung .banner-1-b article .box-informations {
+  width: 100%;
+  max-width: 875px;
+  min-height: 126px;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  margin: 54px auto 0 auto;
+  display: flex;
+  align-items: center; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .ficha-2021-samsung .banner-1-b article .box-informations {
+      max-width: 90%;
+      min-height: auto;
+      padding: 0 2.5% 0 2.5%;
+      margin: 20px auto 0 auto; } }
+  .ficha-2021-samsung .banner-1-b article .box-informations p {
     font-family: 'SamsungSharp Medium';
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: left;
-    color: #000000;
-    margin: 15px 0 15px 0; }
-    @media only screen and (min-width: 200px) and (max-width: 767px) {
-      .ficha-2021-samsung .banner-1-b article .left h3, .ficha-2021-samsung .banner-1-b article .right h3 {
-        font-size: 22px; } }
-    .ficha-2021-samsung .banner-1-b article .left h3 span, .ficha-2021-samsung .banner-1-b article .right h3 span {
-      font-family: 'SamsungSharp Bold'; }
-  .ficha-2021-samsung .banner-1-b article .left h2, .ficha-2021-samsung .banner-1-b article .right h2 {
-    font-family: 'SamsungSharp Medium';
-    font-size: 30px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     text-align: center;
-    color: #000000;
-    margin-top: 39px; }
-    @media only screen and (min-width: 200px) and (max-width: 767px) {
-      .ficha-2021-samsung .banner-1-b article .left h2, .ficha-2021-samsung .banner-1-b article .right h2 {
-        font-size: 22px; } }
-  .ficha-2021-samsung .banner-1-b article .left .img, .ficha-2021-samsung .banner-1-b article .right .img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto 0 auto; }
-    @media only screen and (min-width: 200px) and (max-width: 767px) {
-      .ficha-2021-samsung .banner-1-b article .left .img, .ficha-2021-samsung .banner-1-b article .right .img {
-        max-width: 211px; } }
-  .ficha-2021-samsung .banner-1-b article .right {
-    margin-top: 80px; }
-    .ficha-2021-samsung .banner-1-b article .right h5 {
+    color: #676767; }
+    .ficha-2021-samsung .banner-1-b article .box-informations p a {
       font-family: 'SamsungSharp Bold';
-      font-size: 30px !important;
-      color: #8c8c8c;
-      margin: 0; }
-    .ficha-2021-samsung .banner-1-b article .right h2 {
-      font-family: 'SamsungSharp Bold' !important; }
-  .ficha-2021-samsung .banner-1-b article .box-informations {
-    width: 100%;
-    max-width: 875px;
-    min-height: 126px;
-    border-radius: 20px;
-    background-color: #f4f4f4;
-    margin: 54px auto 0 auto;
-    display: flex;
-    align-items: center; }
-    @media only screen and (min-width: 200px) and (max-width: 767px) {
-      .ficha-2021-samsung .banner-1-b article .box-informations {
-        max-width: 90%;
-        min-height: auto;
-        padding: 0 2.5% 0 2.5%;
-        margin: 20px auto 0 auto; } }
-    .ficha-2021-samsung .banner-1-b article .box-informations p {
-      font-family: 'SamsungSharp Medium';
-      font-size: 28px;
-      font-weight: 500;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: center;
+      text-decoration: none;
       color: #676767; }
-      .ficha-2021-samsung .banner-1-b article .box-informations p a {
-        font-family: 'SamsungSharp Bold';
-        text-decoration: none;
-        color: #676767; }
-      @media only screen and (min-width: 200px) and (max-width: 767px) {
-        .ficha-2021-samsung .banner-1-b article .box-informations p {
-          font-size: 16px; } }
-  .ficha-2021-samsung .banner-1-b article .btn-call-to-acction-2021 {
-    margin: 60px 0 0 0 !important; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2021-samsung .banner-1-b article .box-informations p {
+        font-size: 16px; } }
+
+.ficha-2021-samsung .banner-1-b article .btn-call-to-acction-2021 {
+  margin: 60px 0 0 0 !important; }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .ficha-2021-samsung .banner-1-b article .btn-call-to-acction-2021 {
+      margin: 60px auto 0 auto !important; } }
 
 .ficha-2021-samsung .banner-2 {
   background: #ffffff; }
@@ -474,17 +489,28 @@ body {
   background: #ffffff; }
   .ficha-2021-samsung .banner-4 .thumbnails {
     display: grid;
-    grid-template-columns: 242px 242px 242px;
+    grid-template-columns: 400px 400px 400px;
     justify-content: center;
     column-gap: 50px;
     margin-top: 89px;
     padding: 100px 0 0 0; }
     @media only screen and (min-width: 200px) and (max-width: 767px) {
       .ficha-2021-samsung .banner-4 .thumbnails {
-        grid-template-columns: 40% 40%;
+        grid-template-columns: 100%;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 0px;
         padding-bottom: 50px; } }
+    .ficha-2021-samsung .banner-4 .thumbnails .thumb .title-thumb {
+      font-family: 'SamsungSharp Bold';
+      font-size: 36px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+      text-decoration: underline; }
     .ficha-2021-samsung .banner-4 .thumbnails .thumb .img {
       width: 100%; }
     .ficha-2021-samsung .banner-4 .thumbnails .thumb p {
@@ -518,8 +544,21 @@ body {
           height: 40px;
           border-radius: 40px;
           margin-right: 20px; }
+          @media only screen and (min-width: 200px) and (max-width: 767px) {
+            .ficha-2021-samsung .banner-4 .thumbnails .thumb .list-colors ul li span {
+              width: 20px;
+              height: 20px;
+              margin-right: 10px; } }
         .ficha-2021-samsung .banner-4 .thumbnails .thumb .list-colors ul li p {
           font-family: 'SamsungOne 600';
+          font-size: 24px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: left;
+          color: #000000;
           margin: 10px 0 15px 0; }
   .ficha-2021-samsung .banner-4 .note20 {
     display: none; }
@@ -543,6 +582,9 @@ body {
       letter-spacing: normal;
       text-align: left;
       color: #000000; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .head h2 {
+          font-size: 24px; } }
     .ficha-2021-samsung .especificaciones-producto .head p {
       font-family: 'SamsungOne 400';
       font-size: 30px;
@@ -553,17 +595,33 @@ body {
       letter-spacing: normal;
       text-align: left;
       color: #000000; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .head p {
+          font-size: 18px; } }
   .ficha-2021-samsung .especificaciones-producto .body ul {
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%; }
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 10%;
+    margin: 0;
+    padding: 0; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2021-samsung .especificaciones-producto .body ul {
+        grid-template-columns: 100%;
+        column-gap: 0%; } }
     .ficha-2021-samsung .especificaciones-producto .body ul li {
       list-style: none; }
   .ficha-2021-samsung .especificaciones-producto .body .thumb-espec {
     padding: 139px 0 132px 0; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2021-samsung .especificaciones-producto .body .thumb-espec {
+        padding: 40px 0 40px 0; } }
     .ficha-2021-samsung .especificaciones-producto .body .thumb-espec .ico {
       max-width: 61px;
       display: block;
       margin: 0 auto 0 auto; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .thumb-espec .ico {
+          max-width: 41px; } }
       .ficha-2021-samsung .especificaciones-producto .body .thumb-espec .ico img {
         width: 100%; }
     .ficha-2021-samsung .especificaciones-producto .body .thumb-espec h3, .ficha-2021-samsung .especificaciones-producto .body .thumb-espec h4, .ficha-2021-samsung .especificaciones-producto .body .thumb-espec h5 {
@@ -580,6 +638,9 @@ body {
       text-align: center;
       color: #000000;
       margin: 40px 0 32px 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .thumb-espec h3 {
+          font-size: 40px; } }
     .ficha-2021-samsung .especificaciones-producto .body .thumb-espec h4 {
       font-family: 'SamsungOne 800';
       font-size: 30px;
@@ -590,6 +651,9 @@ body {
       letter-spacing: normal;
       text-align: center;
       color: #000000; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .thumb-espec h4 {
+          font-size: 20px; } }
     .ficha-2021-samsung .especificaciones-producto .body .thumb-espec h5 {
       font-family: 'SamsungOne 800';
       font-size: 30px;
@@ -601,6 +665,10 @@ body {
       text-align: center;
       color: #8c8c8c;
       margin: 32px 0 21px 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .thumb-espec h5 {
+          font-size: 20px;
+          margin: 15px 0 10px 0; } }
     .ficha-2021-samsung .especificaciones-producto .body .thumb-espec p {
       font-family: 'SamsungOne 600';
       font-size: 30px;
@@ -611,8 +679,14 @@ body {
       letter-spacing: normal;
       text-align: center;
       color: #000000; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .thumb-espec p {
+          font-size: 20px; } }
   .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-2 {
     padding: 138px 0 134px 0; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-2 {
+        padding: 30px 0 30px 0; } }
     .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-2 h3, .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-2 h4 {
       margin: 0;
       padding: 0; }
@@ -626,6 +700,9 @@ body {
       letter-spacing: normal;
       text-align: center;
       color: #000000; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-2 h3 {
+          font-size: 40px; } }
     .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-2 h4 {
       font-family: 'SamsungOne 800';
       font-size: 30px;
@@ -636,8 +713,14 @@ body {
       letter-spacing: normal;
       text-align: center;
       color: #8c8c8c; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-2 h4 {
+          font-size: 20px; } }
   .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3 {
     padding: 138px 0 30px 0; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3 {
+        padding: 30px 0 30px 0; } }
     .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3 .ico {
       max-width: 61px;
       display: block;
@@ -654,6 +737,9 @@ body {
       letter-spacing: normal;
       text-align: center;
       color: #010101; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3 h3 {
+          font-size: 20px; } }
     .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3 h4 {
       font-family: 'SamsungSharp Bold';
       font-size: 60px;
@@ -664,30 +750,54 @@ body {
       letter-spacing: normal;
       text-align: center;
       color: #000000; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3 h4 {
+          font-size: 40px; } }
   .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_b {
     padding: 0 0 134px 0 !important; }
-  .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_c .ico {
-    max-width: 190px;
-    margin: 0 auto 40px auto; }
-  .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_c h3 {
-    font-size: 60px;
-    margin: 0; }
-  .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_c h5 {
-    font-family: 'SamsungOne 800';
-    font-size: 30px;
-    font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #8c8c8c;
-    margin: 0; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_b {
+        padding: 0 !important; } }
+  .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_c {
+    padding-bottom: 139px; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_c {
+        padding-bottom: 30px; } }
+    .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_c .ico {
+      max-width: 190px;
+      margin: 0 auto 40px auto; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_c .ico {
+          max-width: 140px; } }
+    .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_c h3 {
+      font-size: 60px;
+      margin: 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_c h3 {
+          font-size: 40px; } }
+    .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_c h5 {
+      font-family: 'SamsungOne 800';
+      font-size: 30px;
+      font-weight: 800;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #8c8c8c;
+      margin: 0; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_c h5 {
+          font-size: 20px; } }
   .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_d .ico {
     max-width: 48px;
     margin: 0 auto 40px auto; }
   .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_d h3 {
-    font-size: 60px; }
+    font-size: 60px;
+    margin: 0; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_d h3 {
+        font-size: 40px; } }
     .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_d h3 span {
       font-family: 'SamsungOne 400';
       font-size: 30px;
@@ -709,6 +819,9 @@ body {
     text-align: center;
     color: #8c8c8c;
     margin: 0; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_d h5 {
+        font-size: 20px; } }
   .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_e h3:nth-child(1) {
     margin-bottom: 78px; }
   .ficha-2021-samsung .especificaciones-producto .body .thumb-espec-3_e h3:nth-child(2) {
@@ -768,7 +881,12 @@ body {
     grid-template-columns: 86px auto;
     column-gap: 39px;
     justify-content: center;
-    margin-bottom: 135px; }
+    margin: 72px auto 135px auto; }
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      .ficha-2021-samsung .especificaciones-producto .body .box-usb, .ficha-2021-samsung .especificaciones-producto .body .box-cloud {
+        grid-template-columns: 100%;
+        column-gap: 0;
+        margin: 30px auto 40px auto; } }
     .ficha-2021-samsung .especificaciones-producto .body .box-usb div, .ficha-2021-samsung .especificaciones-producto .body .box-cloud div {
       margin-top: 20px; }
     .ficha-2021-samsung .especificaciones-producto .body .box-usb p, .ficha-2021-samsung .especificaciones-producto .body .box-cloud p {
@@ -781,6 +899,9 @@ body {
       letter-spacing: normal;
       text-align: left;
       color: #000000; }
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        .ficha-2021-samsung .especificaciones-producto .body .box-usb p, .ficha-2021-samsung .especificaciones-producto .body .box-cloud p {
+          font-size: 20px; } }
 
 .ficha-2021-samsung .banner-9 {
   background: #f7f7f7; }
